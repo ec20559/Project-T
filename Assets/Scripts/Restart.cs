@@ -4,7 +4,6 @@ using System.Collections;
 
 public class Restart : MonoBehaviour
 {
-
     public void RestartGame()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
